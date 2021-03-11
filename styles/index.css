@@ -1,0 +1,410 @@
+body {
+  background-color: white;
+}
+@media screen and (min-width: 908px) and (max-width: 1440px) {
+  .main {
+    background-image: url("../images/bg-pattern-top-desktop.svg"),
+      url("../images/bg-pattern-bottom-desktop.svg");
+
+    background-repeat: no-repeat;
+    width: 90%;
+    margin: 50px auto;
+    /* border: 1px solid gray; */
+
+    display: grid;
+    grid-template-rows: 300px 250px;
+    grid-template-columns: 1fr;
+
+    row-gap: 30px;
+    /* background-color: white; */
+  }
+
+  /* Header section Style */
+  .head {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* header left section styling start */
+  .heading-head {
+    width: 50%;
+    padding: 10px;
+    /* border: 1px solid red; */
+    font-family: "Spartan", sans-serif;
+  }
+
+  .heading-head h1 {
+    /* border: 1px solid red; */
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    width: 50%;
+  }
+  .heading-head p {
+    /* border: 1px solid red; */
+    color: hsl(300, 43%, 22%);
+    width: 80%;
+    line-height: 24px;
+  }
+  /* Header left sectin styling end */
+
+  /* Header right rating section styling start */
+  .rating-head {
+    width: 45%;
+    padding: 10px;
+    font-family: "Spartan", sans-serif;
+
+    /* border: 1px solid red; */
+  }
+  .rating-head p {
+    /* border: 1px solid red; */
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px;
+    width: 70%;
+
+    border-radius: 10px;
+  }
+  #rating-para2 {
+    margin-left: 15px;
+  }
+  #rating-para3 {
+    margin-left: 25px;
+  }
+  /* Header section completed */
+  /* ------------------ */
+  /* review cards section started!!! */
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+
+    /* border: 1px solid red; */
+  }
+
+  /* ----- */
+  .allcrd {
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    width: 30%;
+  }
+
+  .actl {
+    height: 80%;
+    background-color: darkmagenta;
+    font-family: "Spartan", sans-serif;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .actual-crd2 {
+    margin-top: 10px;
+  }
+  .actual-crd3 {
+    /* background-color: darkmagenta; */
+    margin-top: 20px;
+  }
+
+  .card-head {
+    display: flex;
+
+    /* border: 1px solid blue; */
+  }
+  .img img {
+    width: 40px;
+    border-radius: 50%;
+    padding: 20px;
+  }
+  .htext {
+    /* border: 1px solid yellow; */
+    height: 50px;
+    margin-top: 10px;
+  }
+  .htext h4 {
+    margin: 15px 0px 0px 0px;
+  }
+  .htext h5 {
+    margin: 5px 0px 0px 5px;
+    color: hsl(333, 80%, 67%);
+  }
+  .card-para {
+    /* border: 1px solid white; */
+    width: 80%;
+    font-size: 13px;
+    margin-left: 20px;
+  }
+
+  .attribution {
+    font-size: 16px;
+    text-align: center;
+    background-color: lightblue;
+    height: 20px;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+} /*Media Query for desktop ends here*/
+/* ---------------- */
+@media screen and (min-width: 376px) and (max-width: 907px) {
+  .main {
+    background-image: url("../images/bg-pattern-top-desktop.svg"),
+      url("../images/bg-pattern-bottom-desktop.svg");
+
+    background-repeat: no-repeat;
+    width: 90%;
+    margin: 50px auto;
+    /* border: 1px solid gray; */
+
+    display: grid;
+    grid-template-rows: 300px 250px;
+    grid-template-columns: 1fr;
+
+    row-gap: 30px;
+    /* background-color: white; */
+  }
+
+  /* Header section Style */
+  .head {
+    display: flex;
+    /* flex-wrap: wrap; */
+  }
+  /* header left section styling start */
+  .heading-head {
+    width: 50%;
+    padding: 10px;
+    /* border: 1px solid red; */
+    font-family: "Spartan", sans-serif;
+  }
+
+  .heading-head h1 {
+    /* border: 1px solid red; */
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    width: 40%;
+    font-size: 24px;
+  }
+  .heading-head p {
+    /* border: 1px solid red; */
+    color: hsl(300, 43%, 22%);
+    width: 80%;
+    font-size: 10px;
+  }
+  /* Header left sectin styling end */
+
+  /* Header right rating section styling start */
+  .rating-head {
+    width: 45%;
+    padding: 10px;
+    font-family: "Spartan", sans-serif;
+
+    /* border: 1px solid red; */
+  }
+  .rating-head p {
+    /* border: 1px solid red; */
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px;
+    width: 70%;
+    font-size: 14px;
+
+    border-radius: 10px;
+  }
+  #rating-para2 {
+    margin-left: 15px;
+  }
+  #rating-para3 {
+    margin-left: 25px;
+  }
+  /* Header section completed */
+  /* ------------------ */
+  /* review cards section started!!! */
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+
+    /* margin-top: 30px; */
+  }
+
+  /* ----- */
+  .allcrd {
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    width: 80%;
+  }
+
+  .actl {
+    height: 100%;
+    background-color: darkmagenta;
+    font-family: "Spartan", sans-serif;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .actual-crd2 {
+    margin-top: 10px;
+  }
+  .actual-crd3 {
+    /* background-color: darkmagenta; */
+    margin-top: 20px;
+  }
+
+  .card-head {
+    display: flex;
+
+    /* border: 1px solid blue; */
+  }
+  .img img {
+    width: 40px;
+    border-radius: 50%;
+    padding: 20px;
+  }
+  .htext {
+    /* border: 1px solid yellow; */
+    height: 50px;
+    margin-top: 10px;
+  }
+  .htext h4 {
+    margin: 15px 0px 0px 0px;
+  }
+  .htext h5 {
+    margin: 5px 0px 0px 5px;
+    color: hsl(333, 80%, 67%);
+  }
+  .card-para {
+    /* border: 1px solid white; */
+    width: 80%;
+    font-size: 13px;
+    margin-left: 20px;
+  }
+  .span-p:nth-of-type(6) {
+    display: block;
+    /* color: yellow; */
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}
+
+/* --------------- */
+@media screen and (max-width: 375px) {
+  .main {
+    background-image: url("../images/bg-pattern-top-mobile.svg"),
+      url("../images/bg-pattern-bottom-mobile.svg");
+
+    background-repeat: no-repeat;
+    width: 90%;
+    margin: 50px auto;
+
+    display: grid;
+    grid-template-rows: 300px 250px 250px 250px;
+    grid-template-columns: 1fr;
+
+    row-gap: 120px;
+  }
+  /* Header section Style */
+
+  /* header left section styling start */
+
+  .heading-head {
+    font-family: "Spartan", sans-serif;
+    text-align: center;
+  }
+  .heading-head h1 {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+  }
+  .heading-head p {
+    color: hsl(300, 43%, 22%);
+  }
+  /* Header right rating section styling start */
+  .rating-head {
+    font-family: "Spartan", sans-serif;
+
+    /* border: 1px solid red; */
+  }
+  .rating-head p {
+    /* border: 1px solid red; */
+    background-color: hsl(300, 24%, 96%);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    margin-top: 20px;
+
+    border-radius: 10px;
+  }
+
+  .cards {
+    /* border: 1px solid red; */
+    height: 800px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+  }
+  .span-p:last-of-type {
+    display: block;
+    /* color: #f00; */
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+  }
+  .span-img {
+    margin-left: 55px;
+  }
+  .span-img img {
+    margin-top: 8px;
+  }
+  /* Header section completed */
+  /* review cards section started!!! */
+  .actl {
+    height: 100%;
+    background-color: darkmagenta;
+    font-family: "Spartan", sans-serif;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .actual-crd2 {
+    margin-top: 10px;
+  }
+  .actual-crd3 {
+    margin-top: 20px;
+  }
+
+  .card-head {
+    display: flex;
+  }
+  .img img {
+    width: 40px;
+    border-radius: 50%;
+    padding: 20px;
+  }
+  .htext {
+    height: 50px;
+    margin-top: 10px;
+  }
+  .htext h4 {
+    margin: 15px 0px 0px 0px;
+  }
+  .htext h5 {
+    margin: 5px 0px 0px 5px;
+    color: hsl(333, 80%, 67%);
+  }
+  .card-para {
+    /* border: 1px solid white; */
+    width: 80%;
+    font-size: 13px;
+    margin-left: 20px;
+  }
+  .attribution {
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}

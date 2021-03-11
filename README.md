@@ -1,4 +1,8 @@
-!["Image Screenshot - Desktop preview"]("screenshots/desktop preview.png")
+![Image Screenshot - Desktop preview](screenshots/desktoppreview.PNG)
+
+![Image Screenshot - Desktop preview](screenshots/iphone-x-prev1.PNG)
+
+![Image Screenshot - Desktop preview](screenshots/iphone-x-prev2.PNG)
 
 This website is a challenge from Frontend Mentor and I created this.
 
